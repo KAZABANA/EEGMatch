@@ -1,6 +1,7 @@
-PR-PL: A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for EEG-Based Emotion Recognition
+EEGMatch: Learning with Incomplete Labels for Semi-Supervised EEG-based Cross-Subject Emotion Recognition
 =
-* A Pytorch implementation of our paper "PR-PL: A Novel Transfer Learning Framework with Prototypical Representation based Pairwise Learning for EEG-Based Emotion Recognition".<br> 
+* A Pytorch implementation of our paper "EEGMatch: Learning with Incomplete Labels for
+Semi-Supervised EEG-based Cross-Subject Emotion Recognition".<br> 
 * [arxiv](https://arxiv.org/abs/2202.06509)
 
 # Installation:
@@ -15,11 +16,11 @@ PR-PL: A Novel Transfer Learning Framework with Prototypical Representation base
 * Prepare dataset: [SEED](https://bcmi.sjtu.edu.cn/~seed/index.html) and [SEED-IV](https://bcmi.sjtu.edu.cn/~seed/index.html)
 
 # Training 
-* PR-PL model definition file: model_PR_PL.py 
-* Pipeline of the PR-PL: implementation_PR_PL.py
-* implementation of domain adversarial training: Adversarial.py
+* PR-PL model definition file: model_EEGMatch.py 
+* Pipeline of the PR-PL: implementation_EEGMatch.py
+* implementation of domain adversarial training: Adversarial_DG.py
 # Usage
-* After modify setting (path, etc), just run the main function in the implementation_PR_PL.py
+* After modify setting (path, etc), just run the main function in the implementation_EEGMatch.py
 # Acknowledgement
 * The implementation code of domain adversarial training is bulit on the [dalib](https://dalib.readthedocs.io/en/latest/index.html) code base 
 # Citation
