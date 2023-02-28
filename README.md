@@ -16,8 +16,8 @@ Semi-Supervised EEG-based Cross-Subject Emotion Recognition".<br>
 * Prepare dataset: [SEED](https://bcmi.sjtu.edu.cn/~seed/index.html) and [SEED-IV](https://bcmi.sjtu.edu.cn/~seed/index.html)
 
 # Training 
-* PR-PL model definition file: model_EEGMatch.py 
-* Pipeline of the PR-PL: implementation_EEGMatch.py
+* EEGMatch model definition file: model_EEGMatch.py 
+* Pipeline of the EEGMatch: implementation_EEGMatch.py
 * implementation of domain adversarial training: Adversarial_DG.py
 # Usage
 * After modify setting (path, etc), just run the main function in the implementation_EEGMatch.py
