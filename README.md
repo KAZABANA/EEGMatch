@@ -19,6 +19,8 @@ Semi-Supervised EEG-based Cross-Subject Emotion Recognition".<br>
 * EEGMatch model definition file: model_EEGMatch.py 
 * Pipeline of the EEGMatch: implementation_EEGMatch.py
 * implementation of domain adversarial training: Adversarial_DG.py
+# Dataset prepare
+* data_prepare_seed.m
 # Usage
 * After modify setting (path, etc), just run the main function in the implementation_EEGMatch.py
 # Acknowledgement
