@@ -26,7 +26,7 @@ Semi-Supervised EEG-based Cross-Subject Emotion Recognition".<br>
 # Acknowledgement
 * The implementation code of domain adversarial training is bulit on the [dalib](https://dalib.readthedocs.io/en/latest/index.html) code base 
 # Supplementary Materials
-* Supplementary Materials EEGMatch.pdf
+* SupplementaryMaterials_EEGMatch.pdf
 # Citation
 @ARTICLE{10756195,
   author={Zhou, Rushuang and Ye, Weishan and Zhang, Zhiguo and Luo, Yanyang and Zhang, Li and Li, Linling and Huang, Gan and Dong, Yining and Zhang, Yuan-Ting and Liang, Zhen},
