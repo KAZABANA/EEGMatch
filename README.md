@@ -2,7 +2,7 @@ EEGMatch: Learning with Incomplete Labels for Semi-Supervised EEG-based Cross-Su
 =
 * A Pytorch implementation of our under reviewed paper "EEGMatch: Learning with Incomplete Labels for
 Semi-Supervised EEG-based Cross-Subject Emotion Recognition".<br> 
-* [arxiv](http://arxiv.org/abs/2304.06496)
+* [IEEE TNNLS](https://ieeexplore.ieee.org/document/10756195)
 # Installation:
 
 * Python 3.7
@@ -25,13 +25,17 @@ Semi-Supervised EEG-based Cross-Subject Emotion Recognition".<br>
 * After modify setting (path, etc), just run the main function in the implementation_EEGMatch.py
 # Acknowledgement
 * The implementation code of domain adversarial training is bulit on the [dalib](https://dalib.readthedocs.io/en/latest/index.html) code base 
-
+# Supplementary Materials
+* Supplementary Materials EEGMatch.pdf
 # Citation
-@misc{zhou2023eegmatch,
-      title={EEGMatch: Learning with Incomplete Labels for Semi-Supervised EEG-based Cross-Subject Emotion Recognition}, 
-      author={Rushuang Zhou and Weishan Ye and Zhiguo Zhang and Yanyang Luo and Li Zhang and Linling Li and Gan Huang and Yining Dong and Yuan-Ting Zhang and Zhen Liang},
-      year={2023},
-      eprint={2304.06496},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP}
-}
+@ARTICLE{10756195,
+  author={Zhou, Rushuang and Ye, Weishan and Zhang, Zhiguo and Luo, Yanyang and Zhang, Li and Li, Linling and Huang, Gan and Dong, Yining and Zhang, Yuan-Ting and Liang, Zhen},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={EEGMatch: Learning With Incomplete Labels for Semisupervised EEG-Based Cross-Subject Emotion Recognition}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-15},
+  keywords={Electroencephalography (EEG);emotion recognition;multidomain adaptation;semisupervised learning;transfer learning},
+  doi={10.1109/TNNLS.2024.3493425}}
+
